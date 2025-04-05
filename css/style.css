@@ -228,3 +228,41 @@ footer p {
     font-size: 1rem;
   }
 }
+
+/* Button Styles */
+.btn {
+  background-color: #00529B; /* FBLA Blue */
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ffd700; /* Gold hover effect */
+  color: #00529B;
+  transform: translateY(-3px); /* Button lifts up slightly */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+}
+
+.btn:active {
+  transform: translateY(1px); /* Button pushes down when clicked */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Reset shadow on click */
+}
+
+.btn.secondary {
+  background-color: #ffd700; /* Gold for secondary button */
+  color: #00529B;
+}
+
+.btn.secondary:hover {
+  background-color: #00529B; /* Blue on hover */
+  color: #fff;
+}
