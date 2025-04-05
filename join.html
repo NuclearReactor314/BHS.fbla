@@ -9,18 +9,18 @@
 <body>
   <!-- Navbar -->
   <header>
-    <nav>
-      <div class="logo">
-        <a href="index.html">Bonita FBLA</a>
-      </div>
-      <ul class="navbar">
-        <li><a href="about.html">About</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="resources.html">Resources</a></li>
-        <li><a href="cabinet.html">Cabinet</a></li>
-        <li><a href="join.html">Join Us</a></li>
-      </ul>
-    </nav>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Bonita FBLA">
+    </div>
+    <ul class="nav-links">
+      <li><a href="about.html" class="nav-link">About</a></li>
+      <li><a href="events.html" class="nav-link">Events</a></li>
+      <li><a href="resources.html" class="nav-link">Resources</a></li>
+      <li><a href="cabinet.html" class="nav-link">Cabinet</a></li>
+      <li><a href="join.html" class="nav-link join-btn">Join Us</a></li>
+    </ul>
+  </nav>
   </header>
 
   <!-- Hero Section -->
@@ -59,22 +59,11 @@
     <div class="container">
       <h2>Ready to Join?</h2>
       <p>Fill out the form below to become a part of Bonita FBLA.</p>
-      <form action="https://formspree.io/f/maykgrze" method="POST">
-        <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="grade">Grade Level:</label>
-        <select id="grade" name="grade">
-          <option value="9">9th Grade</option>
-          <option value="10">10th Grade</option>
-          <option value="11">11th Grade</option>
-          <option value="12">12th Grade</option>
-        </select>
-
-        <label for="email">School Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <button type="submit" class="btn btn-primary">Submit</button>
+     <form action="https://formspree.io/f/manepzwz" method="POST">
+        <label>Your name: <input type="name" name="name"></label>
+        <label>Your grade: <input type="grade" name="grade"></label>
+        <label>Your email: <textarea name="email"></textarea></label>
+        <button type="submit">Send</button>
       </form>
     </div>
   </section>
