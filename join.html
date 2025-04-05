@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Bonita FBLA</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">Bonita FBLA</a>
+      </div>
+      <ul class="navbar">
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="cabinet.html">Cabinet</a></li>
+        <li><a href="join.html">Join Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Start Your Leadership Journey</h1>
+      <p>Join Bonita FBLA and become part of a community of future business leaders.</p>
+      <a href="#form" class="btn btn-primary">Join Now</a>
+    </div>
+  </section>
+
+  <!-- Why Join Section -->
+  <section class="why-join">
+    <div class="container">
+      <h2>Why Join Bonita FBLA?</h2>
+      <p>We welcome students from all grade levels and backgrounds. No experience needed—just a passion to grow.</p>
+      <div class="reasons">
+        <div class="reason-card">
+          <h3>Leadership Development</h3>
+          <p>Grow as a leader through competitions, conferences, and community service.</p>
+        </div>
+        <div class="reason-card">
+          <h3>Real-World Skills</h3>
+          <p>Gain experience in business, public speaking, and entrepreneurship.</p>
+        </div>
+        <div class="reason-card">
+          <h3>Networking</h3>
+          <p>Meet professionals and peers from across the country.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Join Form Section -->
+  <section id="form" class="join-form">
+    <div class="container">
+      <h2>Ready to Join?</h2>
+      <p>Fill out the form below to become a part of Bonita FBLA.</p>
+      <form action="submit_form.php" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="grade">Grade Level:</label>
+        <select id="grade" name="grade">
+          <option value="9">9th Grade</option>
+          <option value="10">10th Grade</option>
+          <option value="11">11th Grade</option>
+          <option value="12">12th Grade</option>
+        </select>
+
+        <label for="email">School Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Bonita High School FBLA Chapter. All rights reserved.</p>
+      <ul class="social-icons">
+        <li><a href="https://www.instagram.com/"><img src="images/instagram-icon.png" alt="Instagram"></a></li>
+        <li><a href="https://www.linkedin.com/"><img src="images/linkedin-icon.png" alt="LinkedIn"></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
