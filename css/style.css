@@ -8,7 +8,7 @@
 /* Body and global styles */
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #fff;
+  background-color: #000000;
   color: #333;
   line-height: 1.6;
 }
@@ -25,7 +25,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
-  background-color: #ffffff; /* White background for clean design */
+  background-color: #000000; /* White background for clean design */
 }
 
 .navbar .logo img {
