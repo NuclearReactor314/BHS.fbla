@@ -1,0 +1,230 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Header (Navbar) */
+header {
+  background-color: #00529B;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo a {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav .navbar {
+  list-style: none;
+  display: flex;
+}
+
+nav .navbar li {
+  margin-left: 20px;
+}
+
+nav .navbar li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+nav .navbar li a:hover {
+  color: #ffd700;
+  transform: scale(1.05);
+  transition: color 0.3s, transform 0.3s;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  background-color: #ffd700;
+  padding: 12px 20px;
+  color: #00529B;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero .btn:hover {
+  transform: scale(1.1);
+}
+
+/* About Section */
+.about, .why-join, .join-form, .contact-info {
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+/* Cards for Sections */
+.reasons, .contact-methods {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.reason-card, .contact-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+  border-radius: 10px;
+}
+
+.reason-card h3, .contact-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.contact-card a {
+  color: #00529B;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  color: #ffd700;
+}
+
+/* Join Form */
+.join-form form {
+  display: grid;
+  gap: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.join-form label {
+  font-size: 1rem;
+}
+
+.join-form input, .join-form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.join-form button {
+  background-color: #00529B;
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.join-form button:hover {
+  background-color: #ffd700;
+}
+
+/* Footer */
+footer {
+  background-color: #00529B;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-icons li {
+  margin: 0 10px;
+}
+
+footer .social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+footer p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar li {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .reason-card, .contact-card {
+    flex: 1 1 100%;
+  }
+
+  .reasons, .contact-methods {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
