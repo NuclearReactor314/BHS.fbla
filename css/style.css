@@ -8,7 +8,7 @@
 /* Body and global styles */
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #000000;
+  background-color: #fff;
   color: #333;
   line-height: 1.6;
 }
@@ -25,7 +25,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
-  background-color: #000000; /* White background for clean design */
+  background-color: #fff; /* White background for clean design */
 }
 
 .navbar .logo img {
@@ -61,7 +61,7 @@ body {
   background-position: center;
   padding: 100px 0;
   text-align: center;
-  color: #fff;
+  color: #000000;
 }
 
 .hero h1 {
