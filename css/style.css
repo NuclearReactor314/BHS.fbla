@@ -56,12 +56,12 @@ body {
 
 /* Hero Section */
 .hero {
-  background-image: url('images/hero-bg.jpg');
+  background-image: url('California FBLA.png');
   background-size: cover;
   background-position: center;
   padding: 100px 0;
   text-align: center;
-  color: #000000;
+  color: #f0ff00;
 }
 
 .hero h1 {
