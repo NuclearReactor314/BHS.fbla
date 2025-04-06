@@ -261,3 +261,37 @@ footer p {
   background-color: #00529B; /* Blue on hover */
   color: #fff;
 }
+
+.faq-question {
+  cursor: pointer;
+  position: relative;
+  padding-right: 25px;
+}
+
+.faq-question::after {
+  content: '+';
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.5rem;
+  color: #00529B;
+  transition: transform 0.2s ease;
+}
+
+.faq-question.open::after {
+  content: '-';
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.faq-answer.show {
+  max-height: 200px; /* Adjust as needed */
+  opacity: 1;
+  margin-top: 0.5rem;
+}
