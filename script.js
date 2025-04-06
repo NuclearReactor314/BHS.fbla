@@ -18,3 +18,12 @@ window.addEventListener('scroll', () => {
     navbar.classList.remove('sticky');
   }
 });
+
+// Expand/Collapse FAQ
+document.querySelectorAll('.faq-question').forEach((question) => {
+  question.addEventListener('click', () => {
+    const answer = question.nextElementSibling;
+    question.classList.toggle('open');
+    answer.classList.toggle('show');
+  });
+});
