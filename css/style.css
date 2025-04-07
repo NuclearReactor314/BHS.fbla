@@ -61,7 +61,7 @@ body {
   background-position: center;
   padding: 100px 0;
   text-align: center;
-  color: #FFA500;
+  color: #fe0000;
 }
 
 .hero h1 {
@@ -291,7 +291,7 @@ footer p {
 }
 
 .faq-answer.show {
-  max-height: 200px; /* Adjust as needed */
+  max-height: 200px; 
   opacity: 1;
   margin-top: 0.5rem;
 }
