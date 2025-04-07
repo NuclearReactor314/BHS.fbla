@@ -6,3 +6,6 @@
 2. We are organized, we have a plan.
 
 3. We are better than DECA
+
+== Website creation progress ==
+Mostly finished, see details in issues.
